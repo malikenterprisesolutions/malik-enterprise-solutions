@@ -1,15 +1,16 @@
+<div class="logo">
 <svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
   <rect width="300" height="300" rx="28" fill="#0b3c5d"/>
   
   <!-- M -->
-  <path d="M60 210 V90 L110 150 L160 90 V210" 
+  <path d="M60 210 V90 L110 150 L160 90 V210"
         stroke="#ffffff" stroke-width="18" fill="none" stroke-linejoin="round"/>
 
   <!-- Gold Accent Divider -->
   <line x1="160" y1="90" x2="160" y2="210" stroke="#f18f01" stroke-width="10"/>
 
   <!-- E -->
-  <path d="M190 90 H255 M190 150 H240 M190 210 H255" 
+  <path d="M190 90 H255 M190 150 H240 M190 210 H255"
         stroke="#ffffff" stroke-width="18" stroke-linecap="round"/>
 
   <!-- S -->
@@ -18,6 +19,7 @@
            C170 135 190 150 210 150 
            C230 150 255 165 255 185 
            C255 205 230 220 210 220 
-           C190 220 170 205 170 185" 
+           C190 220 170 205 170 185"
         stroke="#ffffff" stroke-width="18" fill="none" stroke-linecap="round"/>
 </svg>
+</div>
