@@ -27,20 +27,72 @@
   <h1>Contact Us</h1>
 </section>
 
-<main class="content">
-  <h2>Get in Touch</h2>
-  <p><strong>Email:</strong> info@malikenterprisesolutions.ca</p>
-  <p><strong>Phone:</strong> +1 226‑555‑0198</p>
-  <p><strong>Location:</strong> Windsor, Ontario (serving all of Ontario)</p>
-  <p><strong>Website:</strong> malikenterprisesolutions.ca</p>
+<main class="content contact-page">
+
+  <section class="contact-container">
+
+    <!-- CONTACT DETAILS -->
+    <div class="contact-info">
+      <h2>Get in Touch</h2>
+
+      <p><strong>Phone:</strong> +1 (289) 880-6576</p>
+      <p><strong>Email:</strong> info@malikenterprisesolutions.com</p>
+      <p><strong>Alternate Email:</strong> malikenterprisesolutions@yahoo.com</p>
+      <p><strong>Address:</strong> LA SALLE, Windsor, Ontario, Canada</p>
+
+      <p>
+        We proudly serve clients across Ontario, providing transportation, automation,
+        robotics, machine vision, and IT infrastructure services.
+      </p>
+    </div>
+
+    <!-- CONTACT FORM -->
+    <div class="contact-form">
+      <h2>Send Us a Message</h2>
+
+      <form action="#" method="post">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+
+        <button type="submit" class="btn-primary">Submit</button>
+      </form>
+    </div>
+
+  </section>
+
+  <!-- MAP PLACEHOLDER -->
+  <section class="map-section">
+    <h2>Our Location</h2>
+    <div class="map-placeholder">
+      <p>Map Placeholder — Windsor / LaSalle Area</p>
+    </div>
+  </section>
+
 </main>
 
 <footer>
-  © <span id="year"></span> Malik Enterprise Solutions Inc.
+  <div class="footer-info">
+    <p><strong>Malik Enterprise Solutions Inc.</strong> — Established 2026</p>
+    <p>LA SALLE, Windsor, Ontario, Canada</p>
+    <p>Phone: +1 (289) 880-6576</p>
+    <p>Email: info@malikenterprisesolutions.com</p>
+    <p>Email: malikenterprisesolutions@yahoo.com</p>
+  </div>
+
+  <p class="footer-copy">
+    © <span id="year"></span> Malik Enterprise Solutions Inc. All rights reserved.
+  </p>
 </footer>
 
 <script>
   document.getElementById('year').textContent = new Date().getFullYear();
 </script>
+
 </body>
 </html>

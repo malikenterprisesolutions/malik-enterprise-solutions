@@ -15,13 +15,13 @@
         stroke="#ffffff" stroke-width="12" stroke-linecap="round"/>
 
   <!-- Company Name -->
-  <text x="190" y="105" font-family="Segoe UI, Inter, sans-serif"
+  <text x="190" y="100" font-family="Segoe UI, Inter, sans-serif"
         font-size="42" fill="#ffffff" font-weight="600">
     Malik Enterprise
   </text>
 
   <!-- Gold underline -->
-  <rect x="190" y="115" width="330" height="6" fill="#f18f01"/>
+  <rect x="190" y="112" width="360" height="6" fill="#f18f01"/>
 
   <text x="190" y="160" font-family="Segoe UI, Inter, sans-serif"
         font-size="34" fill="#ffffff" font-weight="400">
